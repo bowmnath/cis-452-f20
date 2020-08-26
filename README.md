@@ -10,13 +10,6 @@ The course also uses other websites for specific purposes.
 and you are responsible for monitoring Piazza to keep up to date with
 announcements
 (Piazza by default will send an email when an announcement is posted).
-Please post any questions about the course
-(whether about policies, homework, etc.)
-there so that the entire class can benefit.
-You can post anonymously to classmates if you wish.
-If you have a personal question about your grade or other matters that
-pertain only to you,
-you can make a post private so that only the instructor can view it.
 Signup link: [www.piazza.com/gvsu/fall2020/cis452](http://www.piazza.com/gvsu/fall2020/cis452).
 You can read the following [Piazza FAQ](misc/piazza-faq.md) if you
 have questions.
