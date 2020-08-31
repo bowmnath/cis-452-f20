@@ -27,7 +27,7 @@ contact information, and other important info.
 
 | Week | Topics | Readings | Deliverables |
 | ---- | ------ | -------- | ------------ |
-|  1   | Introduction ([slides](slides/what-is-os.md)) ([video](https://drive.google.com/file/d/1zWqB4Tk3SXFIZ_o5c8Raw7hvrziN40Kp/view?usp=sharing))<br> Process concepts | | |
+|  1   | Introduction ([slides](slides/what-is-os.pdf)) ([video](https://drive.google.com/file/d/1zWqB4Tk3SXFIZ_o5c8Raw7hvrziN40Kp/view?usp=sharing))<br> Process concepts | | |
 |  2   | Process scheduling<br> Interprocess communication | | |
 |  3   | Thread concepts<br> Parallelism<br> Multi-threaded programming | | |
 |  4   | Process synchronization<br> Syncrhonization algorithms | | |
