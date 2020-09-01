@@ -17,6 +17,9 @@ Office Hours:
 * Thursdays 11 AM - 12 PM
 * Fridays 10 - 11 AM
 
+Zoom link for office hours:
+[https://us02web.zoom.us/j/86265634339?pwd=S2NmYjRkUFRsR3Jpb1JoU0VEQ2JtUT09](https://us02web.zoom.us/j/86265634339?pwd=S2NmYjRkUFRsR3Jpb1JoU0VEQ2JtUT09)
+
 The best way to contact me about the course is through
 [Piazza](http://www.piazza.com/gvsu/fall2020/cis452).
 I also regularly monitor the channel for this course on the unofficial
@@ -38,6 +41,10 @@ The course lectures will be delivered asynchronously.
 Synchronous meeting times will occur twice weekly:
 * 8 - 9:50 AM Thursdays (Virutal Lab)
 * 1 - 1:50 PM Fridays (Virtual Classroom)
+
+Zoom link for meetings and labs:
+[https://us02web.zoom.us/j/81970158199?pwd=WjExTXBlRk9oR1NtM01pZDI4TFl0dz09](https://us02web.zoom.us/j/81970158199?pwd=WjExTXBlRk9oR1NtM01pZDI4TFl0dz09)
+(not that this is *different* from the meeting link for office hours)
 
 The lab sections on Thursdays will begin with a brief introduction of the
 week's lab followed by time to work with your partner and ask questions about
