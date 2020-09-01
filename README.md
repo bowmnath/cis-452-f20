@@ -27,7 +27,7 @@ contact information, and other important info.
 
 | Week | Topics | Readings | Deliverables |
 | ---- | ------ | -------- | ------------ |
-|  1   | Course logistics ([video](https://drive.google.com/file/d/1yBKH0M9RBT-NMgFeTMChtHs2AXjTiQ8U/view?usp=sharing))<br> Introduction ([slides](slides/what-is-os.pdf)) ([video](https://drive.google.com/file/d/1zWqB4Tk3SXFIZ_o5c8Raw7hvrziN40Kp/view?usp=sharing))<br> Process concepts | Chapter 1<br> Chapter 2<br> 3.1 | **Friday 9/4** [Syllabus quiz](https://prairielearn.engr.illinois.edu/pl/) |
+|  1   | Course logistics ([video](https://drive.google.com/file/d/1t8NlwTP_hG1-gAitlwxBt21yqEguhdeE/view?usp=sharing))<br> Introduction ([slides](slides/what-is-os.pdf)) ([video](https://drive.google.com/file/d/1R9mOxVVKTCPM7uqQxqZFgtGq6s42eIQO/view?usp=sharing))<br> Multiprogramming motivation ([slides](slides/multiprogramming-basic.pdf)) ([video](https://drive.google.com/file/d/18XZ6-sYRGEftKa28TzYC8zSWro9-yS1H/view?usp=sharing))<br> Process concepts | Chapter 1<br> Chapter 2<br> 3.1 | **Friday 9/4** [Syllabus quiz](https://prairielearn.engr.illinois.edu/pl/) |
 |  2   | Process scheduling<br> Interprocess communication | | |
 |  3   | Thread concepts<br> Parallelism<br> Multi-threaded programming | | |
 |  4   | Process synchronization<br> Syncrhonization algorithms | | |
