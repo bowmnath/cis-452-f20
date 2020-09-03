@@ -33,7 +33,7 @@ contact information, and other important info.
 | Week | Topics | Readings | Deliverables |
 | ---- | ------ | -------- | ------------ |
 |  1   | Course logistics ([video](https://drive.google.com/file/d/1t8NlwTP_hG1-gAitlwxBt21yqEguhdeE/view?usp=sharing))<br> Introduction ([slides](slides/what-is-os.pdf)) ([video](https://drive.google.com/file/d/1R9mOxVVKTCPM7uqQxqZFgtGq6s42eIQO/view?usp=sharing))<br> Multiprogramming motivation ([slides](slides/multiprogramming-basic.pdf)) ([video](https://drive.google.com/file/d/18XZ6-sYRGEftKa28TzYC8zSWro9-yS1H/view?usp=sharing))<br> Interrups ([slides](slides/interrupts.pdf)) ([video](https://drive.google.com/file/d/173gheGXEwumtcoRcz05E6jG10zSa-ISP/view?usp=sharing))<br> System calls ([slides](slides/system-calls.pdf)) ([video](https://drive.google.com/file/d/11Nhafd3IiNtUlDCN0Gj_TRG1ZQm1TxpV/view?usp=sharing)) | Chapter 1<br> Chapter 2 | **Friday 9/4** [Syllabus quiz](https://prairielearn.engr.illinois.edu/pl/) |
-|  2   | Process concepts<br> Process scheduling<br> Interprocess communication | | |
+|  2   | Process concepts<br> Process scheduling<br> Interprocess communication | | **Wednesday 9/9** Lab 1 due |
 |  3   | Thread concepts<br> Parallelism<br> Multi-threaded programming | | |
 |  4   | Process synchronization<br> Syncrhonization algorithms | | |
 |  5   | Synchronization hardware<br> Mutex and Semaphores | | |
