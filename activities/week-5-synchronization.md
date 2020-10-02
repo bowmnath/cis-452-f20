@@ -142,6 +142,7 @@ int access_by_id(int *tid, int *access) {
         return 0;
     }
 }
+```
 
 9. What does it mean for something to execute **atomically**?
 
