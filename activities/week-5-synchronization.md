@@ -131,12 +131,13 @@ program more efficient?
 of mutual exclusion, progress, and bounded waiting in lecture.
 Briefly explain what each of these means and why it is important.
 
-8. Would the following C function be effective for synchronization?
+8. Assume the variable `access` protects a critical section.
+Would the following C function be effective for synchronization?
 Why or why not?
 ```
-int access_by_id(int *tid, int *access) {
-    if (access == -1) {
-        access = tid;
+int access_by_id(int tid, int *access) {
+    if (*access == -1) {
+        *access = tid;
         return 1;
     } else {
         return 0;
@@ -155,6 +156,7 @@ Describe how processes could synchronize access to this database.
 (Hint: one of the synchronization tools you know will be much easier here than
 others.)
 
+<!--
 11. Semaphores are implemented with a waiting queue rather than busy waiting,
 as discussed in lecture.
 Pretend we have a semaphore that can use either type of waiting --
@@ -189,22 +191,23 @@ What would be the approximate difference in CPU time used?
 This difference can depend heavily on random chance associated with the
 scheduler,
 so feel free to make some simplifying assumptions.
+-->
 
-12. Briefly describe the concept of *starvation* in a synchronization scenario.
+11. Briefly describe the concept of *starvation* in a synchronization scenario.
 
-13. Many synchronization problems would have a trivial solution if we did not
+12. Many synchronization problems would have a trivial solution if we did not
 concern ourselves with starvation. Why?
 This is not a particularly helpful realization from a practical perspective,
 though. Why?
 
-14. Review the solution to the
+13. Review the solution to the
 [Readers-Writers Problem](https://github.com/bowmnath/cis-452-f20/blob/master/slides/sync-classic.pdf).
 Could you make the solution substantially simpler if there were only one writer
 (but still an arbitrary number of readers)?
 If so, how?
 If not, why not?
 
-15. Some of you may have noticed that we started talking about threads a while
+14. Some of you may have noticed that we started talking about threads a while
 back,
 but the lectures on synchronization have revolved around communicating
 processes.
