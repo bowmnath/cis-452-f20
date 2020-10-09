@@ -137,7 +137,7 @@ If not, describe how deadlock could still occur.
 
 12. The following image from your textbook is an example of deadlock.
 
-![deadlock graph](./images/deadlock_graph.png)
+![deadlock graph](./images/deadlock-graph.png)
 
 Find a single arrow that, if removed, will get rid of the deadlock.
 Then, try to determine all such arrows.
