@@ -44,7 +44,7 @@ new process? The running process calls...
     * `fopen()`
     * `x = arr[5]` where `arr` is on the stack
     * `x = arr[5]` where `arr` is in shared memory
-    * `printf()` where `arr` is in shared memory
+    * `printf()`
     * A file read finishes for a higher-priority process
 
 * Nonpreemptive scheduling can help avoid some types of race conditions. Why?
