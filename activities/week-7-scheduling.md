@@ -34,7 +34,7 @@ the ready queue?
 in what sense would scheduling be easy?
 How might it be hard?
 
-* Most processes follow a CPU/I-O burst cycle.
+* Most processes follow a CPU-I/O burst cycle.
 Briefly describe what that means and give a few examples of programs that
 follow that pattern.
 Can you think of any programs that do not?
