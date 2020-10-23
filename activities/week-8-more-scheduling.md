@@ -50,13 +50,13 @@ Look for the slide with the big graph on it.
 The equation on the next slide will also be helpful.)
 
 ```
-Burst number (i) | Actual duration (t_i) | Predicted duration (tau_i)
----                | ---                     | ---
-0                  | --                      | 10
-1                  | 5                       |
-2                  | 5                       |
-3                  | 10                      |
-4                  | 10                      |
+Burst number (i)   | Actual duration (t_i)  | Predicted duration (tau_i)
+---                | ---                    | ---
+0                  | 5                      | 10
+1                  | 5                      |
+2                  | 10                     |
+3                  | 10                     |
+4                  | [unimportant]          |
 ```
 
 5. Assume a system uses priority scheduling.
