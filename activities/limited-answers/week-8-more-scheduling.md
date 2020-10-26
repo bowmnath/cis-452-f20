@@ -94,24 +94,19 @@ How is this different from simply using priority scheduling and applying
 priorities to the processes directly?
 
 ```
-Example answer:
-There are at least two significant differences between standard priority
-scheduling and multilevel queue scheduling.
-First, the scheduling between queues can be more flexible.
-For example,
-with three queues,
-the highest-priority queue may get 60% of the available time,
-then 30% could go to the next-highest-priority queue,
-with the remaining 10% allocated to the lowest-priority queue.
-This type of allocation would not be possible with priority scheduling as we
-have described it.
+Example answer: There are at least two significant differences between standard
+priority scheduling and multilevel queue scheduling.  First, the scheduling
+between queues can be more flexible.  For example, with three queues, the
+highest-priority queue may get 60% of the available time, then 30% could go to
+the next-highest-priority queue, with the remaining 10% allocated to the
+lowest-priority queue.  This type of allocation would not be possible with
+priority scheduling as we have described it.
 
-Second, each queue can have its own internal scheduling algorithm.
-In another three-queue example,
-one queue could be round-robin with a small time quantum,
-another could be round-robin with a larger time quantum,
-and the final queue could be run as SJF.
-There is no mechanism to do this with priority scheduling.
+Second, each queue can have its own internal scheduling algorithm.  In another
+three-queue example, one queue could be round-robin with a small time quantum,
+another could be round-robin with a larger time quantum, and the final queue
+could be run as SJF.  There is no mechanism to do this with priority
+scheduling.
 ```
 
 
@@ -121,24 +116,19 @@ Give a simple example of a possible multilevel queue setup and why it would be
 beneficial.
 
 ```
-Example answer:
-Various processes may have different scheduling needs because we may have
-different measures for effective scheduling with various aspects of the
-system.
-For example, we may want user processes to share time,
-but it may be very important that system processes get to run as soon as
-possible.
+Example answer: Various processes may have different scheduling needs because
+we may have different measures for effective scheduling with various aspects of
+the system.  For example, we may want user processes to share time, but it may
+be very important that system processes get to run as soon as possible.
 
-In a very simple setup, we could have two queues:
-one for user processes and the other for critical system processes.
-The system-process queue would be higher priority and could itself use a
-priority-based scheduling algorithm so that the most important process on the
-system would always be run immediately.
-The second queue would be round-robin.
-This way, user processes could share time, and,
-if the time quantum were short enough,
-we could ensure that there was a low response time,
-which is a useful metric to target for interactive user processes.
+In a very simple setup, we could have two queues: one for user processes and
+the other for critical system processes.  The system-process queue would be
+higher priority and could itself use a priority-based scheduling algorithm so
+that the most important process on the system would always be run immediately.
+The second queue would be round-robin.  This way, user processes could share
+time, and, if the time quantum were short enough, we could ensure that there
+was a low response time, which is a useful metric to target for interactive
+user processes.
 ```
 
 9. Recall the multileve feedback queue from lecture (reproduced below).
@@ -168,17 +158,15 @@ For which one is processor affinity more important?
 
 ```
 Example answer:
-Processor affinity is more important for Process A.
-If Process A uses a lot of memory,
-it will be more expensive for it to refill the cache when it moves to another
-processor and has its cache invalidated.
+Processor affinity is more important for Process A.  If Process A uses a lot of
+memory, it will be more expensive for it to refill the cache when it moves to
+another processor and has its cache invalidated.
 
-(Note: this is a bit simplistic.
-This assumes that A has an access pattern that makes effective use of cache.
-Issues like this are one of the reasons I do not generally release answers to
-these questions --
-they can stir discussion, but they are sometimes too open-ended to admit a
-precise answer without further details.)
+(Note: this is a bit simplistic.  This assumes that A has an access pattern
+that makes effective use of cache.  Issues like this are one of the reasons I
+do not generally release answers to these questions -- they can stir
+discussion, but they are sometimes too open-ended to admit a precise answer
+without further details.)
 ```
 
 11. What is the goal of load balancing in multiprocessor scheduling.
@@ -186,12 +174,11 @@ How are the goals of load balancing and processor affinity in conflict?
 
 ```
 Example answer:
-Please review the slides or lecture for an introduction to load balancing,
-and ask me if there are details that are unclear to you.
+Please review the slides or lecture for an introduction to load balancing, and
+ask me if there are details that are unclear to you.
 
 Load balancing requires moving processes between CPUs in order to distribute
-work evenly.
-This is directly in conflict with the goal of respecting processor affinity.
-Each time a process is moved between CPUs due to load balancing,
-it will have its cache invalidated.
+work evenly.  This is directly in conflict with the goal of respecting
+processor affinity.  Each time a process is moved between CPUs due to load
+balancing, it will have its cache invalidated.
 ```
