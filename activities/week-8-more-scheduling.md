@@ -104,8 +104,8 @@ there are no arrows from lower-priority to higher-priority queues.
 Given the following sets of burst times,
 in which queue would each process end up?
 
-* A: 9, 16, 2
-* B: 16, 9, 2
+* A: 9, 17, 2
+* B: 17, 9, 2
 * C: 3, 3, 4
 * D: 30, 8, 7
 
