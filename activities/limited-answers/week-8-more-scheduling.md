@@ -93,7 +93,7 @@ different priorities.
 How is this different from simply using priority scheduling and applying
 priorities to the processes directly?
 
-**
+```
 Example answer:
 There are at least two significant differences between standard priority
 scheduling and multilevel queue scheduling.
@@ -112,7 +112,7 @@ one queue could be round-robin with a small time quantum,
 another could be round-robin with a larger time quantum,
 and the final queue could be run as SJF.
 There is no mechanism to do this with priority scheduling.
-**
+```
 
 
 8. What is the benefit of using a multilevel queue algorithm rather than a
@@ -120,7 +120,7 @@ single algorithm for every process on the system?
 Give a simple example of a possible multilevel queue setup and why it would be
 beneficial.
 
-**
+```
 Example answer:
 Various processes may have different scheduling needs because we may have
 different measures for effective scheduling with various aspects of the
@@ -139,7 +139,7 @@ This way, user processes could share time, and,
 if the time quantum were short enough,
 we could ensure that there was a low response time,
 which is a useful metric to target for interactive user processes.
-**
+```
 
 9. Recall the multileve feedback queue from lecture (reproduced below).
 Note that, for this particular setup,
@@ -152,21 +152,21 @@ in which queue would each process end up?
 * C: 3, 3, 4
 * D: 30, 8, 7
 
-![Feedback queue](images/multilevel-feedback.png)
+![Feedback queue](../images/multilevel-feedback.png)
 
-**
+```
 Answer:
 * A: bottom queue
 * B: middle queue
 * C: top queue
 * D: middle queue
-**
+```
 
 10. Process A uses a lot of memory.
 Process B does not use much memory.
 For which one is processor affinity more important?
 
-**
+```
 Example answer:
 Processor affinity is more important for Process A.
 If Process A uses a lot of memory,
@@ -179,12 +179,12 @@ Issues like this are one of the reasons I do not generally release answers to
 these questions --
 they can stir discussion, but they are sometimes too open-ended to admit a
 precise answer without further details.)
-**
+```
 
 11. What is the goal of load balancing in multiprocessor scheduling.
 How are the goals of load balancing and processor affinity in conflict?
 
-**
+```
 Example answer:
 Please review the slides or lecture for an introduction to load balancing,
 and ask me if there are details that are unclear to you.
@@ -194,4 +194,4 @@ work evenly.
 This is directly in conflict with the goal of respecting processor affinity.
 Each time a process is moved between CPUs due to load balancing,
 it will have its cache invalidated.
-**
+```
