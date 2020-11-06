@@ -100,3 +100,14 @@ Why or why not?
 1010
 0001
 ```
+
+14. In a system with a page size of 1024 KB,
+which of the following will lead to more internal fragmentation?
+* Process A with 10239 KB of memory
+* Process B with 2560 KB of memory
+
+15. Try to come up with a system that does not suffer from interal or external
+fragmentation.
+Is it possible?
+If so, why is the system not used in real OSes?
+If it is not possible, why not?
