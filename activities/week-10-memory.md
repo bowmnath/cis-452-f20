@@ -83,9 +83,15 @@ consider the page table:
 0101
 ```
 
-and logical address `0x0010111`.
+and logical address `0010111`.
+
+(Note: the page table is written out in binary for your convenience.
+To make it look like the one in the slides,
+you would simply convert the entries to decimal.)
 
 11. Determine the page size for the given system.
+(Note: it is relevant here that the given table is the **entire** page table
+for the process.)
 
 12. What is the physical address corresonding to the given logical address?
 (Careful!)
