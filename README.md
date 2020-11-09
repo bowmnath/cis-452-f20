@@ -44,7 +44,7 @@ contact information, and other important info.
 |  10  | Segmentation<br>([video](https://drive.google.com/file/d/1qqfDSZghsmlCanYOlgF9qTS6Dalb_AIR/view?usp=sharing)) ([slides](slides/memory-segmentation.pdf))<br> Paging<br>([intro video](https://drive.google.com/file/d/1vwapmHhPPs92xNWThaCODrpaNxem9Qgv/view?usp=sharing)) ([intro slides](slides/paging-intro.pdf))<br>([details video](https://drive.google.com/file/d/1EDLmTewIPg6xN7_Ajy6ln5--KrzyTobK/view?usp=sharing)) ([details slides](slides/paging-details.pdf))<br>([TLB video](https://drive.google.com/file/d/1PodEYDIrLmkY497QcgV3bAoWqxUNFx9b/view?usp=sharing)) ([TLB slides](slides/paging-tlb.pdf))<br>([table structure video](https://drive.google.com/file/d/1KrTgJ3tfYmlngMxakN0NqZwG4CxY8YaL/view?usp=sharing)) ([table structure slides](slides/paging-table.pdf)) | 7.4 - 7.6 | [Friday activity](activities/week-10-memory.md) (not due for credit)<br> [Some activity answers](activities/limited-answers/week-10-memory.md) |
 |  11  | Virtual memory<br> Memory performance<br> Page replacement concepts and algorithms | | |
 |  12  | Frame allocation<br> Memory system design | | |
-|      | Thanksgiving break 11/25 - 11/29 | | |
+|      | Thanksgiving break 11/25 - 11/29 | | **Tuesday 11/24** Project 2 due  |
 |  14  | File system concepts and implementation | | |
 |  15  | Protection and security | | |
 |  16  | **Final Exam** | | |
