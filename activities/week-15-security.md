@@ -36,6 +36,9 @@ the described system?
 use the following sequence of cylinder requests:
 400 600 650 410 350 370 680
 
+If it is relevant, assume the disk head starts at location 390 and was
+last traveling right (in the positive direction).
+
 2. Give the order in which the requests will be satisfied using
 FCFS scheduling.
 How far must the disk head travel (in cylinders) to satsify the requests?
